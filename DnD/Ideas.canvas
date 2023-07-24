@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"7ee5775cdf792237","x":-380,"y":-740,"width":520,"height":420,"type":"file","file":"God.md"},
+		{"type":"file","file":"Religion A.md","id":"44fbf9b5c9703f40","x":-630,"y":-20,"width":250,"height":180},
+		{"id":"1466eab4b9679ae7","x":140,"y":-20,"width":250,"height":180,"type":"file","file":"Religion B.md"}
+	],
+	"edges":[
+		{"id":"061b6fdffc14d33b","fromNode":"44fbf9b5c9703f40","fromSide":"right","toNode":"1466eab4b9679ae7","toSide":"left"},
+		{"id":"813d1fde783c31fb","fromNode":"1466eab4b9679ae7","fromSide":"left","toNode":"44fbf9b5c9703f40","toSide":"right","label":"At war"},
+		{"id":"a83567e53b5412b9","fromNode":"44fbf9b5c9703f40","fromSide":"top","toNode":"7ee5775cdf792237","toSide":"bottom","label":"Wants to please"},
+		{"id":"4d8d0113e399c39d","fromNode":"1466eab4b9679ae7","fromSide":"top","toNode":"7ee5775cdf792237","toSide":"bottom","label":"Wants to please"}
+	]
+}
